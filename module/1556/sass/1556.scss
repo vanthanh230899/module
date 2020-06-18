@@ -1,0 +1,72 @@
+$font-family : 'Nunito', sans-serif;
+$font-size : 18px;
+$line-height: 30px;
+$color: #222;
+$padding : 30px;
+$color-job: #21bda1;
+
+.type-1556{
+
+    // ---general---
+    
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: $font-family;
+
+     //--end general---
+
+     //---header form---
+
+   .comment-title{
+      position: relative;
+      color: $color;
+      font-size: $font-size + 12px;
+      text-align: center;
+      font-weight: 300;
+      line-height: $line-height;
+      margin: 20px 0;
+   }
+   .comment-title::after{
+      display: block;
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: $color-job;
+      position: absolute;
+      left: 45%;
+      top: 35px;
+   }
+   .comment-description{
+      text-align: center;
+      font-size: $font-size - 4px;
+      line-height: 26px;
+      margin-bottom: 15px;
+   }
+
+   // --- end header form---
+
+   // ---form---
+
+   .form-group{
+      margin: 10px 0;
+      border-color: $color;
+   }
+   .form-control{
+      font-size: $font-size;
+      color: $color;
+      font-weight: 200;
+   }
+   .form-check-label{
+      padding-left: 5px;
+      font-size: $font-size - 2px;
+   }
+   .btn{
+      margin-top: 20px;
+      font-size: $font-size - 2px;
+      background-color: $color-job;
+      color: #fff;
+   }
+   .btn:hover{
+      opacity: .8;
+   }
+}

@@ -1,0 +1,43 @@
+.type-1556 {
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif; }
+  .type-1556 .comment-title {
+    position: relative;
+    color: #222;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 20px 0; }
+  .type-1556 .comment-title::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #21bda1;
+    position: absolute;
+    left: 45%;
+    top: 35px; }
+  .type-1556 .comment-description {
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 15px; }
+  .type-1556 .form-group {
+    margin: 10px 0;
+    border-color: #222; }
+  .type-1556 .form-control {
+    font-size: 18px;
+    color: #222;
+    font-weight: 200; }
+  .type-1556 .form-check-label {
+    padding-left: 5px;
+    font-size: 16px; }
+  .type-1556 .btn {
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #21bda1;
+    color: #fff; }
+  .type-1556 .btn:hover {
+    opacity: 0.8; }

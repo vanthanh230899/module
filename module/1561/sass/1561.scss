@@ -1,0 +1,124 @@
+$font-family : 'Nunito', sans-serif;
+$font-size : 18px;
+$line-height: 30px;
+$background: #f8f8f8;
+$color: #222;
+$padding : 30px;
+$color-job: #21bda1;
+
+.type-1561{
+
+    // --- general---
+    
+    box-sizing: border-box;
+   font-family: $font-family;
+   .container{
+      margin: auto;
+      padding: 0;
+      .row{
+         margin: 0;
+         padding: 0;
+      }
+   }
+
+   // --- end general---
+
+   .portfolio{
+      background: $background;
+      overflow: hidden;
+      // --- portfolio header---
+      &-header{
+         margin: 60px 0 20px 0;
+         padding: $padding;
+         &-name{
+            font-weight: 200;
+            color: $color;
+            font-size: 48px;
+         }
+         &-job{
+            font-weight: 400;
+            line-height: $line-height;
+            color: $color-job;
+            margin-top: 10px;
+            font-size: $font-size + 4px;
+         }
+      }
+
+      // --- end portfolio header---
+
+      // --- portfolio body---
+
+      &-body{
+         margin: 0;
+         &-img{
+            padding: $padding;
+            width: 380px;
+            height: auto;
+            max-width: 100%;
+         }
+         &-content{
+            padding: $padding;
+            h3{
+               font-size: $font-size + 12px;
+            }
+            p{
+               margin-bottom: 10px;
+               color: #666;
+               font-size: $font-size;
+               font-weight: 1;
+               line-height: $line-height;
+               word-spacing: normal;
+            }
+         }
+         .portfolio-icon-box{
+           margin: 25px 0;
+            .portfolio-icon{
+               display: inline-block;
+               margin-right: 15px;
+               font-size: $font-size + 14px;
+               color: $color-job;
+               text-align: top;
+               .icon{
+                  position: relative;
+                  top: -20px;
+               }
+            }
+            .portfolio-info{
+               overflow: hidden;
+               display: inline-block;
+               &-title{
+                  text-align: left;
+                  color: $color;
+                  font-size: $font-size;
+               }
+               &-description{
+                  color: #aaa;
+                  font-size: $font-size - 2px;
+               }
+            }
+         }
+         .portfolio-social-icons{
+            margin: 0;
+            &-link{
+               display: inline-block;
+               width: 32px;
+               height: 32px;
+               background: $color-job;
+               margin-right: 5px;
+               border-radius: 3px;
+               .social-icon{
+                  position: relative;
+                  left: 8px;
+                  top: 4px;
+                  font-size: $font-size - 2px;
+                  color: #fff;
+               }
+            }
+            &-link:hover{
+                opacity: 0.8;
+            }
+         }
+      }
+      // --- end portfolio body---
+   }
+}

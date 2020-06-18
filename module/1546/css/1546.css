@@ -1,0 +1,132 @@
+.type-1546 {
+  font-family: 'Nunito', sans-serif;
+  margin: 30px 0;
+  box-sizing: border-box;
+  overflow: hidden; }
+  .type-1546 .container {
+    margin: auto;
+    padding: 0; }
+    .type-1546 .container .col, .type-1546 .container .col-1, .type-1546 .container .col-10, .type-1546 .container .col-11, .type-1546 .container .col-12, .type-1546 .container .col-2, .type-1546 .container .col-3, .type-1546 .container .col-4, .type-1546 .container .col-5, .type-1546 .container .col-6, .type-1546 .container .col-7, .type-1546 .container .col-8, .type-1546 .container .col-9, .type-1546 .container .col-auto, .type-1546 .container .col-lg, .type-1546 .container .col-lg-1, .type-1546 .container .col-lg-10, .type-1546 .container .col-lg-11, .type-1546 .container .col-lg-12, .type-1546 .container .col-lg-2, .type-1546 .container .col-lg-3, .type-1546 .container .col-lg-4, .type-1546 .container .col-lg-5, .type-1546 .container .col-lg-6, .type-1546 .container .col-lg-7, .type-1546 .container .col-lg-8, .type-1546 .container .col-lg-9, .type-1546 .container .col-lg-auto, .type-1546 .container .col-md, .type-1546 .container .col-md-1, .type-1546 .container .col-md-10, .type-1546 .container .col-md-11, .type-1546 .container .col-md-12, .type-1546 .container .col-md-2, .type-1546 .container .col-md-3, .type-1546 .container .col-md-4, .type-1546 .container .col-md-5, .type-1546 .container .col-md-6, .type-1546 .container .col-md-7, .type-1546 .container .col-md-8, .type-1546 .container .col-md-9, .type-1546 .container .col-md-auto, .type-1546 .container .col-sm, .type-1546 .container .col-sm-1, .type-1546 .container .col-sm-10, .type-1546 .container .col-sm-11, .type-1546 .container .col-sm-12, .type-1546 .container .col-sm-2, .type-1546 .container .col-sm-3, .type-1546 .container .col-sm-4, .type-1546 .container .col-sm-5, .type-1546 .container .col-sm-6, .type-1546 .container .col-sm-7, .type-1546 .container .col-sm-8, .type-1546 .container .col-sm-9, .type-1546 .container .col-sm-auto, .type-1546 .container .col-xl, .type-1546 .container .col-xl-1, .type-1546 .container .col-xl-10, .type-1546 .container .col-xl-11, .type-1546 .container .col-xl-12, .type-1546 .container .col-xl-2, .type-1546 .container .col-xl-3, .type-1546 .container .col-xl-4, .type-1546 .container .col-xl-5, .type-1546 .container .col-xl-6, .type-1546 .container .col-xl-7, .type-1546 .container .col-xl-8, .type-1546 .container .col-xl-9, .type-1546 .container .col-xl-auto {
+      padding: 0;
+      margin: 0;
+      width: auto; }
+    .type-1546 .container .row {
+      margin: 30px 0;
+      padding: 0; }
+    .type-1546 .container .header-title-medium {
+      font-size: 22px;
+      color: #21bda1;
+      font-weight: 400;
+      line-height: 30px; }
+    .type-1546 .container .header-title-default {
+      color: #222;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 30px; }
+    .type-1546 .container .browse {
+      text-align: right;
+      margin: auto; }
+      .type-1546 .container .browse .header-browse {
+        text-decoration: none;
+        border-color: transparent transparent #21bda1 transparent;
+        border-width: 2px;
+        border-style: solid;
+        padding: 6px 0; }
+        .type-1546 .container .browse .header-browse .browse-icon {
+          display: inline-block;
+          font-size: 16px;
+          color: #222;
+          margin-right: 5px; }
+        .type-1546 .container .browse .header-browse .browse-text {
+          font-size: 16px;
+          color: #222; }
+      .type-1546 .container .browse .header-browse:hover .browse-text {
+        color: #21bda1; }
+      .type-1546 .container .browse .header-browse:hover .browse-icon {
+        color: #21bda1; }
+  .type-1546 .swiper-container {
+    position: relative;
+    width: 100%;
+    height: 550px; }
+    .type-1546 .swiper-container .swiper-slide {
+      height: 360px;
+      width: 500px;
+      background-color: #fff;
+      margin: 0 40px; }
+      .type-1546 .swiper-container .swiper-slide .slide-img {
+        width: 510px;
+        height: 320px;
+        max-width: 100%; }
+      .type-1546 .swiper-container .swiper-slide .overlay-slide-link {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); }
+        .type-1546 .swiper-container .swiper-slide .overlay-slide-link .slide-icon {
+          font-size: 48px;
+          width: 0;
+          height: 0;
+          position: absolute;
+          top: 40%;
+          left: 45%;
+          color: #f8f8f8;
+          opacity: 0.5; }
+        .type-1546 .swiper-container .swiper-slide .overlay-slide-link .slide-icon:hover {
+          color: #f8f8f8;
+          opacity: 0.8; }
+      .type-1546 .swiper-container .swiper-slide .slide-content {
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        display: block;
+        background: #fff;
+        width: 300px;
+        height: 100px;
+        top: 260px;
+        left: 100px;
+        z-index: 9; }
+        .type-1546 .swiper-container .swiper-slide .slide-content .content-link {
+          text-decoration: none; }
+          .type-1546 .swiper-container .swiper-slide .slide-content .content-link:hover .content-title {
+            color: #21bda1; }
+        .type-1546 .swiper-container .swiper-slide .slide-content .content-title {
+          overflow: hidden;
+          color: #222;
+          font-size: 22px;
+          margin: 30px 0; }
+        .type-1546 .swiper-container .swiper-slide .slide-content .content-job {
+          overflow: hidden;
+          font-size: 16px;
+          color: #21bda1; }
+    .type-1546 .swiper-container .swiper-slide:hover .overlay-slide-link {
+      display: block;
+      animation: speed ease-in 0.2s; }
+    .type-1546 .swiper-container .swiper-pagination {
+      position: absolute;
+      top: 400px;
+      z-index: 99; }
+    .type-1546 .swiper-container .swiper-button-next {
+      position: relative;
+      top: -380px;
+      left: 98%;
+      color: #fff;
+      background: #21bda1; }
+    .type-1546 .swiper-container .swiper-button-prev {
+      position: relative;
+      top: -400px;
+      left: 0;
+      color: #fff;
+      background: #21bda1; }
+    .type-1546 .swiper-container .swiper-button-next:hover {
+      opacity: 1.2; }
+
+@keyframes speed {
+  from {
+    opacity: 0.2; }
+  to {
+    opacity: 1; } }
+@media (max-width: 1100px) {
+  .type-1546 .container .row .browse {
+    text-align: left;
+    margin: 0; } }

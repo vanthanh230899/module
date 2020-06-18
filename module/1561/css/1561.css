@@ -1,0 +1,81 @@
+.type-1561 {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif; }
+  .type-1561 .container {
+    margin: auto;
+    padding: 0; }
+    .type-1561 .container .row {
+      margin: 0;
+      padding: 0; }
+  .type-1561 .portfolio {
+    background: #f8f8f8;
+    overflow: hidden; }
+    .type-1561 .portfolio-header {
+      margin: 60px 0 20px 0;
+      padding: 30px; }
+      .type-1561 .portfolio-header-name {
+        font-weight: 200;
+        color: #222;
+        font-size: 48px; }
+      .type-1561 .portfolio-header-job {
+        font-weight: 400;
+        line-height: 30px;
+        color: #21bda1;
+        margin-top: 10px;
+        font-size: 22px; }
+    .type-1561 .portfolio-body {
+      margin: 0; }
+      .type-1561 .portfolio-body-img {
+        padding: 30px;
+        width: 380px;
+        height: auto;
+        max-width: 100%; }
+      .type-1561 .portfolio-body-content {
+        padding: 30px; }
+        .type-1561 .portfolio-body-content h3 {
+          font-size: 30px; }
+        .type-1561 .portfolio-body-content p {
+          margin-bottom: 10px;
+          color: #666;
+          font-size: 18px;
+          font-weight: 1;
+          line-height: 30px;
+          word-spacing: normal; }
+      .type-1561 .portfolio-body .portfolio-icon-box {
+        margin: 25px 0; }
+        .type-1561 .portfolio-body .portfolio-icon-box .portfolio-icon {
+          display: inline-block;
+          margin-right: 15px;
+          font-size: 32px;
+          color: #21bda1;
+          text-align: top; }
+          .type-1561 .portfolio-body .portfolio-icon-box .portfolio-icon .icon {
+            position: relative;
+            top: -20px; }
+        .type-1561 .portfolio-body .portfolio-icon-box .portfolio-info {
+          overflow: hidden;
+          display: inline-block; }
+          .type-1561 .portfolio-body .portfolio-icon-box .portfolio-info-title {
+            text-align: left;
+            color: #222;
+            font-size: 18px; }
+          .type-1561 .portfolio-body .portfolio-icon-box .portfolio-info-description {
+            color: #aaa;
+            font-size: 16px; }
+      .type-1561 .portfolio-body .portfolio-social-icons {
+        margin: 0; }
+        .type-1561 .portfolio-body .portfolio-social-icons-link {
+          display: inline-block;
+          width: 32px;
+          height: 32px;
+          background: #21bda1;
+          margin-right: 5px;
+          border-radius: 3px; }
+          .type-1561 .portfolio-body .portfolio-social-icons-link .social-icon {
+            position: relative;
+            left: 8px;
+            top: 4px;
+            font-size: 16px;
+            color: #fff; }
+        .type-1561 .portfolio-body .portfolio-social-icons-link:hover {
+          opacity: 0.8; }
