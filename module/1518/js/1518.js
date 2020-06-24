@@ -3,15 +3,8 @@ $(document).ready(function(){
     topSpacing: 0,
     zIndex: '50'
     });
-       
-   $(".search").hide();
-   if($(".search").hide()){
-       $(".fa-search").click(function(){
-        $(".search").show();
-       });
-   }else{
-    $(".fa-search").click(function(){
-        $(".search").hide();
-   });
-   }
+
+    $('.nav-search-link').click(function(){
+        $('.search').css("visibility","visible");
+    });
 });

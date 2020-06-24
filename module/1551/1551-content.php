@@ -37,7 +37,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
                     <!-- testimonial item -->
                 <div class="col-xl-4 col-lg-12">
                     <div class="testimonial-item">
