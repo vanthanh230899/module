@@ -1,0 +1,105 @@
+
+$color: #fff;
+$padding: 10px;
+//  ---general---
+
+.type-26{
+    box-sizing: border-box;
+    overflow: hidden;
+    .top-footer{
+      background-image: url("/testmodule/image/2.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      .container-top-footer{
+         padding-top: 20px;
+         h2{
+            color: $color;
+            font-size: 45px;
+         }
+         p{
+            color: $color;
+            font-size: 18px;
+         }
+         .form{
+            margin: auto;
+            padding: 0 15px;
+            .input-email{
+               padding: 0;
+            }
+            .input-submit{
+               padding-left: 5px;
+            }
+            .femail{
+               width: 100%;
+               padding: $padding;
+               color: $color;
+               border: 1px solid $color;
+               border-radius: 99px 0 0 99px;
+               background: inherit;
+            }
+            input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+               color: #fff;
+            }
+            input[type="email"]:focus {
+               border-color: #00a685;
+               outline: none;
+            }
+            input[type="submit"]:focus {
+               border-color: #00a685;
+               outline: none;
+            }
+            .fsubmit{
+               border: 1px solid #fff;
+               padding: $padding 0;
+               border-radius: 0 99px 99px 0;
+               background: $color;
+            }
+         }
+      }
+    }
+
+   .footer{
+      background: #E9E9E9;
+      padding-bottom: 20px;
+      .footer-connect{
+         text-align: center;
+         a{
+            display: inline-flex;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #000;
+            border-radius: 99px;
+            margin: 20px 0 10px 0;
+            span{
+               display: block;
+               margin: auto;
+               i{
+                  font-size: 16px;
+                  color: #000;
+               }
+            }
+         }
+      }
+      p{
+         text-align: center;
+         margin-bottom: 20px;
+      }
+      .footer-bottom{
+         text-align: center;
+         a{
+            margin: 10px 10px;
+            color: #000;
+         }
+         a:hover{
+            text-decoration: none;
+         }
+      } 
+   }
+
+   @media only screen and (max-width:768px){
+      .input-email{
+         padding: 0 0 0 15px !important;
+      }
+   }
+}
+    
