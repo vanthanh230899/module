@@ -25,6 +25,8 @@ file_put_contents('css/1561.css',$result);
    
 </head>
 <body>
+    
     <?php include '1561-content.php'; ?>
+
 </body>
 </html>

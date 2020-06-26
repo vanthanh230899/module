@@ -28,7 +28,8 @@ file_put_contents('css/1546.css',$result);
 </head>
 <body>
     <?php include '1546-content.php' ?>
+
+    <script src="js/swiper-master/package/js/swiper.min.js"></script>
+    <script src="js/1546.js"></script>
 </body>
 </html>
-<script src="js/swiper-master/package/js/swiper.min.js"></script>
-<script src="js/1546.js"></script>

@@ -17,7 +17,7 @@
     height: 3px;
     background-color: #21bda1;
     position: absolute;
-    left: 45%;
+    left: 47%;
     top: 35px; }
   .type-1556 .comment-description {
     text-align: center;
@@ -27,6 +27,19 @@
   .type-1556 .form-group {
     margin: 10px 0;
     border-color: #222; }
+    .type-1556 .form-group input:focus {
+      box-shadow: none;
+      border: 1px solid #21bda1; }
+    .type-1556 .form-group input:focus::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.1); }
+    .type-1556 .form-group ::-webkit-input-placeholder {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.3); }
+    .type-1556 .form-group textarea:focus {
+      box-shadow: none;
+      border: 1px solid #21bda1; }
+    .type-1556 .form-group textarea:focus::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.1); }
   .type-1556 .form-control {
     font-size: 18px;
     color: #222;
@@ -40,4 +53,10 @@
     background-color: #21bda1;
     color: #fff; }
   .type-1556 .btn:hover {
-    opacity: 0.8; }
+    animation: speed ease-in 0.7s; }
+
+@keyframes speed {
+  from {
+    opacity: 0.7; }
+  to {
+    opacity: 1; } }

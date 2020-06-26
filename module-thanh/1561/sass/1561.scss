@@ -51,13 +51,13 @@ $color-job: #21bda1;
       &-body{
          margin: 0;
          &-img{
-            padding: $padding;
-            width: 380px;
+            padding: 15px;
+            
             height: auto;
             max-width: 100%;
          }
          &-content{
-            padding: $padding;
+            padding: 10px;
             h3{
                font-size: $font-size + 12px;
             }
@@ -71,7 +71,7 @@ $color-job: #21bda1;
             }
          }
          .portfolio-icon-box{
-           margin: 25px 0;
+           margin: 20px 0;
             .portfolio-icon{
                display: inline-block;
                margin-right: 15px;

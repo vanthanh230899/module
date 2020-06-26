@@ -49,6 +49,7 @@ $color-job: #21bda1;
             }
          }
          .header-browse:hover{
+            animation: speed ease-in 0.3s;
             .browse-text{
                color: $color-job;
             }
@@ -62,15 +63,17 @@ $color-job: #21bda1;
    // ----slideshow----
    
    .swiper-container {
-      width: auto;
+      width: 100%;
+      height: 100%;
+      position: relative;
       .swiper-slide{
+         padding: 50px 0;
          a{
             margin: 0 10px;
             display: block;
             position: relative;
             .slide-img{
-               max-width: 100%;
-               height: 100%;
+               width: 100%;
             }
             .overlay-slide-link{
                display: none;
@@ -84,7 +87,7 @@ $color-job: #21bda1;
                i{
                 position: absolute;
                 top: 40%;
-                left: 50%;
+                left: 45%;
                 font-size: 60px;
                 color: $color;
                }
