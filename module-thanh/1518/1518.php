@@ -20,7 +20,8 @@ file_put_contents('css/1518.css',$result);
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/1518.css">
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-    <link rel="stylesheet" href="font/font-awesome-4.7.0/css/fontawesome.css">
+    <link rel="stylesheet" href="font/font-awesome.min.css" tpye="text/css">
+    <link rel="stylesheet" href="font/fontawesome.webfont.ttf" tpye="text/css">
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

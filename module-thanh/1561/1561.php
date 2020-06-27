@@ -20,7 +20,9 @@ file_put_contents('css/1561.css',$result);
     <title>1561</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/1561.css">
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/fontawesome.css">
+    <link rel="stylesheet" href="font/font-awesome.min.css">
+    <link rel="stylesheet" href="font/fontawesome-webfont.ttf">
+    
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
    
 </head>

@@ -20,7 +20,8 @@ file_put_contents('css/1546.css',$result);
     <title>1546</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/1546.css">
-    <link rel="stylesheet" href="font/font-awesome-4.7.0/css/fontawesome.css">
+    <link rel="stylesheet" href="font/font-awesome.min.css">
+    <link rel="stylesheet" href="font/fontawesome-webfont.ttf">
     <link rel="stylesheet" href="js/swiper-master/package/css/swiper.min.css">
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 
